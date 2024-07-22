@@ -1,4 +1,6 @@
 
+
+
 import React from 'react';
 import amazonclone from '../../public/amazonclone.png';
 import wanderlust from '../../public/wanderlust.png';
@@ -43,8 +45,8 @@ const projects = [
 ];
 
 const ProjectCard = ({ title, image, technologies, link, git }) => (
-  <div 
-  name="Projects" className='w-full h-auto p-4 shadow-md  hover:scale-105 duration-100 bg-white flex flex-col justify-center text-center'>
+  <div
+    name="Projects" className='w-full h-auto p-4 shadow-md hover:scale-105 duration-100 bg-white flex flex-col justify-center text-center'>
     <h1 className='text-xl m-2' style={{ color: 'dodgerblue' }}>{title}</h1>
     <img src={image} alt={title} />
     <ul className='flex space-x-5 justify-center mt-2'>
@@ -77,19 +79,18 @@ const Projects = () => (
       {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />
       ))}
-     
     </div>
-    <div className=' flex gap-1 text-center  semi-circular-border mb-6 '>
-     <a href="https://github.com/Sumati4" target="_blank" rel='noopener noreferrer'style={{ color: 'dodgerblue' }}
-      >
-      see more 
-      </a>
-      <FaGithub className='text-2xl cursor-pointer text-gray-600 hover:text-gray-800 transition' title="View" />
-  
-
-     </div>
-     <hr></hr>
+    <div className='flex justify-center items-center mb-6'>
+      <div className='semi-circular-border flex justify-center items-center gap-2'>
+        <a href="https://github.com/Sumati4" target="_blank" rel='noopener noreferrer' className='text-dodgerblue'>
+          See more
+        </a>
+        <FaGithub className='text-2xl cursor-pointer text-gray-600 hover:text-gray-800 transition' title="View" />
+      </div>
+    </div>
+    <hr />
   </div>
 );
 
 export default Projects;
+
