@@ -18,7 +18,10 @@ import '../App.css';
 export default function Home() {
   return (
     <>
-    <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 '>
+   
+    <div
+    name="Home"
+     className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 '>
         <div className='flex flex-col items-center  md:flex-row '>
         <div className=' md:w-1/2 mt-12 md:mt-48 space-y-2 order-2 md:order-1  md:items-start'>
         {/* <span className='text-xl'>Welcome In My Feed</span> */}
@@ -69,7 +72,7 @@ export default function Home() {
       </ul>
     </div>
     <div className=" space-y-2 md:text:start">
-                <h1 className="font-bold text-center ">Currently working on</h1>
+                <h1 className="font-bold text-center ">My Current Learning Focus</h1>
                 <div className="flex space-x-5">
                   <SiMongodb className="text-4xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <SiExpress className="text-4xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
@@ -86,6 +89,7 @@ export default function Home() {
      </div>
   
      <hr/>
+     
     </>
   );
 }

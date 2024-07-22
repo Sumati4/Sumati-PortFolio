@@ -18,7 +18,9 @@ import '../App.css';
 const About = () => {
   return (
     <>
-    <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 flex flex-col items-center  md:flex-row'>
+    <div
+    name="About"
+     className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 flex flex-col items-center  md:flex-row'>
       <div className='md:w-1/2 mt-12 md:mt-48'>
    
     
