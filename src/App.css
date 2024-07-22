@@ -3,3 +3,18 @@
     font-size: 70px;
     color: darkslategray; 
 }
+.semi-circular-border {
+   
+    padding: 0.5rem 1rem;
+    border: 1px solid dodgerblue;
+    border-radius: 9999px 9999px 9999px 9999px;
+    text-align: center;
+    width: 9rem;
+    height: 3rem;
+    margin-left: 45%;
+    
+  }
+  .custom-font {
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+  }
+  

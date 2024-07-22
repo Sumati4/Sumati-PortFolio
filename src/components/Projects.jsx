@@ -257,8 +257,16 @@ const Projects = () => (
       ))}
      
     </div>
-    <h1 className='text-center' > <a href="https://github.com/Sumati4" target="_blank" rel='noopener noreferrer'>
-      </a>see more</h1>
+    <div className=' flex gap-1 text-center semi-circular-border mb-6 '>
+     <a href="https://github.com/Sumati4" target="_blank" rel='noopener noreferrer'style={{ color: 'dodgerblue' }}
+      >
+      see more 
+      </a>
+      <FaGithub className='text-2xl cursor-pointer text-gray-600 hover:text-gray-800 transition' title="View" />
+  
+
+     </div>
+     <hr></hr>
   </div>
 );
 
