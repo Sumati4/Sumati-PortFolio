@@ -33,7 +33,7 @@ export default function Contact() {
     <div
     name="Contact"
      className="min-h-screen  flex flex-col items-center justify-center py-12">
-      <h1 className='heading text-3xl font-bold text-center mb-12'>CONTACT ME</h1>
+      <h1 className='heading  font-bold text-center mb-12'>CONTACT ME</h1>
       <div className='flex flex-col md:flex-row justify-center items-center w-full max-w-4xl'>
         <div className='md:w-1/3 p-6'>
           <h1 className='text-4xl text-gray-700 custom-font mb-6'>Let's Connect</h1>

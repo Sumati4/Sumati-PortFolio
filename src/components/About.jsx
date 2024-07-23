@@ -24,7 +24,7 @@ const About = () => {
       <div className='md:w-1/2 mt-12 md:mt-48'>
    
     
-     <h1 className='heading text-3xl font-bold mb-5 text-center'>ABOUT ME </h1>
+     <h1 className='heading  font-bold mb-5 text-center'>ABOUT ME </h1>
      <br></br>
      <p className='text-justify '>Hello, my name is Sumati. I am from Khagaria, Bihar. I completed my B.Tech in Computer Science and Engineering from Chandigarh Engineering College, Landran, with an aggregate CGPA of 8.06. </p>
      <br></br>
@@ -35,7 +35,7 @@ const About = () => {
     <p className='text-justify'>I am dedicated to delivering high-quality work and exceeding expectations. My passion for web development, combined with my strong technical foundation and eagerness to learn, empowers me to add value to any project I undertake. I am excited about the prospect of contributing my technical expertise to innovative projects and furthering my professional growth. </p>
     </div>
     <div className='md:w-1/2 mt-12 md:mt-48 md:ml-12'>
-    <h1  className='heading text-3xl font-bold mb-5 text-center'>Skills </h1>
+    <h1  className='heading  font-bold mb-5 text-center'>Skills </h1>
     <br></br>
      <div className='grid grid-cols-2 md:grid-cols-3 gap-5 text-center' >
        <div className='hover:scale-110 duration-200   flex flex-col items-center'><img src={html} className='w-[100px] h-[100px]' ></img>

@@ -74,7 +74,7 @@ const ProjectCard = ({ title, image, technologies, link, git }) => (
 
 const Projects = () => (
   <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
-    <h1 className='heading text-center text-3xl font-bold mt-40'>Projects</h1>
+    <h1 className='heading text-center  font-bold mt-40'>Projects</h1>
     <div className='grid grid-cols-1 md:grid-cols-2 gap-5 text-center m-16'>
       {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />
