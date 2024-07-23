@@ -36,8 +36,8 @@ export default function Home() {
        className='text-Blue-700 font-bold'
           strings={[
             "i'm from Khagaria,Bihar",
-            "I'm Web Developer",
-            "I'm Software Engineer",
+            "I'm a Web Development Enthusiast",
+             "Aspiring Software Engineer",
           ]}
           
           typeSpeed={40}
