@@ -23,7 +23,7 @@ This portfolio is a comprehensive display of my expertise in modern web developm
 
 To view and explore the portfolio locally, follow these steps:
 
-### Installation
+
 
 1. **Clone the repository:**
 
@@ -35,13 +35,9 @@ To view and explore the portfolio locally, follow these steps:
 ```bash
 cd your-portfolio-repo
 
-3.**Install dependencies:**
-```bash
-npm install
 
-4.**Start the development server:**
-```bash
 npm start
+
 
 
 
