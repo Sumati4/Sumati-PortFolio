@@ -30,5 +30,18 @@ To view and explore the portfolio locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/your-portfolio-repo.git
 
+### Navigate to the project directory:
 
+```bash
+cd your-portfolio-repo
+
+### Install dependencies:
+
+```bash
+npm install
+
+### Start the development server:
+
+```bash
+npm start
 
