@@ -35,7 +35,11 @@ To view and explore the portfolio locally, follow these steps:
 ```
 cd your-portfolio-repo
 ```
-
+3.**Install dependencies:**
+```
+npm install
+```
+4.**Start the development server:**
 npm start
 
 
