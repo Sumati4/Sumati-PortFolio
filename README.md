@@ -1,5 +1,10 @@
 # Sumati's Portfolio
 
+## Live Demo
+
+You can view the live demo of this project at [https://sumati-portfolio.onrender.com/](https://sumati-portfolio.onrender.com/).
+
+
 Welcome to my portfolio website! This project showcases my journey as a Web Development Enthusiast and Aspiring Software Engineer, highlighting my skills, projects, and the technologies I've mastered.
 
 ## Overview
@@ -40,9 +45,10 @@ cd your-portfolio-repo
 npm install
 ```
 4.**Start the development server:**
+```
 npm start
 
-
+```
 
 
 
