@@ -32,9 +32,9 @@ To view and explore the portfolio locally, follow these steps:
 
 2.**Navigate to the project directory:**
 
-```bash
+```
 cd your-portfolio-repo
-
+```
 
 npm start
 
